@@ -15,7 +15,7 @@ Aquí tienes algunas capturas de pantalla de la aplicación:
 
 - **Búsqueda de Cócteles**: Los usuarios pueden buscar cócteles por nombre, y la aplicación muestra detalles como el nombre, contenido alcohólico, tipo de vaso, ingredientes e instrucciones.
 - **Integración con la API de TheCocktailDB**: La aplicación utiliza la API de cocktaildb.com para obtener información actualizada sobre cócteles.
-- **Visualización de Detalles del Cóctel**: Los usuarios pueden ver información detallada sobre un cóctel seleccionado en una pantalla separada.
+- **Visualización de Detalles del Cóctel**: Los usuarios pueden ver información detallada sobre un cóctel.
 
 ## Uso
 
