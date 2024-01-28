@@ -13,6 +13,8 @@
 		66E237D52B655D3600253566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E237D32B655D3600253566 /* Main.storyboard */; };
 		66E237D72B655D3700253566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E237D62B655D3700253566 /* Assets.xcassets */; };
 		66E237DA2B655D3700253566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E237D82B655D3700253566 /* LaunchScreen.storyboard */; };
+		66E237E22B65678F00253566 /* CocktailRecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E237E12B65678F00253566 /* CocktailRecipeTableViewCell.swift */; };
+		66EF38352B656AA5009A639A /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF38342B656AA5009A639A /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		66E237D62B655D3700253566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66E237D92B655D3700253566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66E237DB2B655D3700253566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66E237E12B65678F00253566 /* CocktailRecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailRecipeTableViewCell.swift; sourceTree = "<group>"; };
+		66EF38342B656AA5009A639A /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,33 @@
 		66E237CC2B655D3600253566 /* Cocktails */ = {
 			isa = PBXGroup;
 			children = (
+				66EF38362B656CE4009A639A /* Model */,
+				66E237E32B6567AC00253566 /* Views */,
 				66E237CD2B655D3600253566 /* AppDelegate.swift */,
 				66E237CF2B655D3600253566 /* SceneDelegate.swift */,
-				66E237D12B655D3600253566 /* ViewController.swift */,
 				66E237D32B655D3600253566 /* Main.storyboard */,
 				66E237D62B655D3700253566 /* Assets.xcassets */,
 				66E237D82B655D3700253566 /* LaunchScreen.storyboard */,
 				66E237DB2B655D3700253566 /* Info.plist */,
 			);
 			path = Cocktails;
+			sourceTree = "<group>";
+		};
+		66E237E32B6567AC00253566 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				66E237D12B655D3600253566 /* ViewController.swift */,
+				66E237E12B65678F00253566 /* CocktailRecipeTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		66EF38362B656CE4009A639A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66EF38342B656AA5009A639A /* Recipe.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +163,8 @@
 				66E237D22B655D3600253566 /* ViewController.swift in Sources */,
 				66E237CE2B655D3600253566 /* AppDelegate.swift in Sources */,
 				66E237D02B655D3600253566 /* SceneDelegate.swift in Sources */,
+				66E237E22B65678F00253566 /* CocktailRecipeTableViewCell.swift in Sources */,
+				66EF38352B656AA5009A639A /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
